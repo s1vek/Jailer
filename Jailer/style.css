@@ -42,6 +42,8 @@ header {
 
 .logo {
     font-size:48px;
+    margin:0;
+    font-weight:normal;
 }
 
 p {
@@ -79,6 +81,7 @@ main {
     height:87px;
     width:297px;
     background-color:black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
 }
 
 .try-out-button > a {
@@ -140,8 +143,34 @@ footer {
     }
     .showcase {
         margin-bottom:20px;
+        margin-top:40px;
+    }
+    #description1 {
+        max-width:276px;
     }
     #description2 {
-        max-width:360px;
+        max-width:281px;
+    }
+    p, .try-out-button > a {
+        font-size:20px;
+    }
+
+    .try-out-button {
+        width:196px;
+        height:47px;
+    }
+
+    .hamburger-menu {
+        width:33px;
+    }
+
+    .header-content {
+        height:40px;
+        padding-left:25px;
+        padding-right:25px;
+    }
+
+    .logo {
+        font-size:20px;
     }
 }
