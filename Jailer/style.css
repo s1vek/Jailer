@@ -189,7 +189,7 @@ height: 500px;
 width: 300px;
 padding: 20px;
 border-radius: 8px;
-background-color: #d9d9d9
+background-color: #d9d9d9;
 
 }
 
@@ -222,5 +222,46 @@ background-color: #d9d9d9
      align-items: center;
      gap:50px
     }
+}
+
+/**/
+
+
+.basket-card {
+
+    display: flex;
+    margin-bottom: 50px;
+    width: 60%;
+    height: 234px;
+    background-color: #d9d9d9;
+    border-radius: 1%;
+
+}
+
+.basket-card  img {
+
+    width: 214px;
+    height: 234px;
+    border-radius: 5%;
+
+}
+
+
+.product-details {
+
+    display: flex;
+    align-items: center;
+       
+}
+
+.summary {
+
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    height: 648px;
+    width: 30%;
+    background-color: #d9d9d9;
+    
 }
 
