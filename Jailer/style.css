@@ -137,6 +137,13 @@ footer {
     main {
         padding-top:40px;
     }
+
+    .mainbasket {
+
+       grid-template-rows: 1fr 1fr 1fr;
+
+    }
+
     .showcase > img {
         height:184px;
         width:105px;
@@ -173,6 +180,8 @@ footer {
     .logo {
         font-size:20px;
     }
+
+
 }
 /*skibar*/
 .card-wrapper{
@@ -226,26 +235,46 @@ background-color: #d9d9d9;
 
 /**/
 
+.mainbasket {
+
+  display: grid;
+  grid-template-columns: 1.45fr 0.55fr;
+  grid-template-rows: 1fr 234px;
+  padding-top:127px;
+
+}
+
 
 .basket-card {
 
-    display: flex;
     margin-bottom: 50px;
-    width: 60%;
+    width: 80%;
     height: 234px;
     background-color: #d9d9d9;
-    border-radius: 1%;
+    margin-left: 100px;
 
+}
+
+.c2 {
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
 }
 
 .basket-card  img {
 
     width: 214px;
     height: 234px;
-    border-radius: 5%;
+    border-radius: 2%;
 
 }
 
+.product-info {
+
+    padding-left: 40px;
+
+}
 
 .product-details {
 
@@ -254,14 +283,45 @@ background-color: #d9d9d9;
        
 }
 
+.headerlist {
+
+    text-align: center;
+    margin-left: 30px;
+
+}
+
+.summary-list{
+
+    list-style-type: none;
+    align-items:end;
+    margin-right: 70px;
+}
+
 .summary {
 
     display: flex;
     justify-content: center;
     font-size: 32px;
-    height: 648px;
-    width: 30%;
+    height: 100%;
+    width: 85%;
     background-color: #d9d9d9;
     
+    grid-row-start: 1;
+    grid-row-end: 3;
+
 }
+
+.continue-button {
+
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border: none;
+    width: 115%;
+    height: 80px;
+    font-family:'Inria Serif';
+
+}
+
+
 
